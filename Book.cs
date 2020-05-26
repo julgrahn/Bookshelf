@@ -3,31 +3,31 @@ using System.Collections.Generic;
 
 namespace Bookshelf
 {
-    public class Book
+    public class Book 
     {
 
-        public string Title { get; set; }
+        public string Title { get; set; } //props
         public string Author { get; set; }
         public string Type { get; set; }
 
-        public Book(string title, string author, string type)
+        public Book(string title, string author, string type) //konstruktor
         {
-            Title = title;
+            Title = title; //initialiserar objekt
             Author = author;
             Type = type;
         }
     }
 
-    public class Novel : Book
+    public class Novel : Book //underklass till bok
     {
-        public Novel(string title, string author, string type) : base(title, author, type)
+        public Novel(string title, string author, string type) : base(title, author, type) //ärver bokklassens objekt
         {
             Type = "novel";
         }
 
         public override string ToString()
         {
-            return "the name of the book is " + Title + " written by " + Author + " and is of the type " + Type;
+            return "The name of the book is " + Title + " written by " + Author + " and is of the type " + Type;
         }
     }
 
@@ -40,7 +40,7 @@ namespace Bookshelf
 
         public override string ToString()
         {
-            return "the name of the book is " + Title + " written by " + Author + " and is of the type " + Type;
+            return "The name of the book is " + Title + " written by " + Author + " and is of the type " + Type;
         }
     }
 
@@ -53,7 +53,7 @@ namespace Bookshelf
 
         public override string ToString()
         {
-            return "the name of the book is " + Title + " written by " + Author + " and is of the type " + Type;
+            return "The name of the book is " + Title + " written by " + Author + " and is of the type " + Type;
         }
     }
 }

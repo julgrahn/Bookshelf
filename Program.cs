@@ -14,6 +14,7 @@ namespace Bookshelf
             bool isRunning = true;
             while (isRunning)
             {
+                
                 Console.WriteLine("Welcome to the library.\n");
                 Console.WriteLine("1. Register a book");
                 Console.WriteLine("2. Print all books");
@@ -29,6 +30,11 @@ namespace Bookshelf
                         break;
                     case 2:
                         PrintBooks();
+                        if(bookshelf.Count == 0)
+                            Console.WriteLine("No books to be found!\n");
+                        break;
+                    case 3:
+                        isRunning = false;
                         break;
                 }
             }
@@ -37,6 +43,7 @@ namespace Bookshelf
         private static void RegisterBook()
         {
             Console.Clear();
+
             Console.WriteLine("Title: ");
             string title = Console.ReadLine();
 
@@ -45,7 +52,7 @@ namespace Bookshelf
 
             Console.WriteLine("Is the book a 1. Novel, 2. Journal or 3. Poetry?");
 
-            if (Int32.TryParse(Console.ReadLine(), out int bookType))
+            if (int.TryParse(Console.ReadLine(), out int bookType))
             {
                 Console.WriteLine("\nSaved\n");
                 switch (bookType)
@@ -66,20 +73,20 @@ namespace Bookshelf
                         break;
                 }
             }
-            else
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Wrong input. Enter a value 1-3.");
-            }
+            /*else
+            { 
+                Console.WriteLine("Wrong entry\n"); //hade problem här med att få min if(tryparse) att fungera som tänkt. 
+                                                    //vill att användaren ska få en ny chans utan att behöva börja om från början. 
+                                                    //"wrong entry" matas även ut felaktigt fast man matar in rätt värde.
+            }*/
         }
 
         private static void PrintBooks()
         {
             Console.Clear();
-            for(var i = 0; i < bookshelf.Count; i++)
-            {
-                Console.WriteLine("\n" + bookshelf);
-            }
+
+            foreach(Book b in bookshelf)
+                Console.WriteLine(b.ToString() + "\n"); //försökte få PrintBooks() att iterera över alla böcker i listan men fick det inte att funka.
         }
     }
 }
