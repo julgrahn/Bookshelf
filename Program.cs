@@ -27,6 +27,9 @@ namespace Bookshelf
                     case 1:
                         RegisterBook();
                         break;
+                    case 2:
+                        PrintBooks();
+                        break;
                 }
             }
         }
@@ -41,11 +44,10 @@ namespace Bookshelf
             string author = Console.ReadLine();
 
             Console.WriteLine("Is the book a 1. Novel, 2. Journal or 3. Poetry?");
-            Console.ReadLine();
-            Console.WriteLine("\nSaved\n");
 
             if (Int32.TryParse(Console.ReadLine(), out int bookType))
             {
+                Console.WriteLine("\nSaved\n");
                 switch (bookType)
                 {
                     case 1:
@@ -65,8 +67,19 @@ namespace Bookshelf
                 }
             }
             else
+            {
                 Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Wrong input. Enter a value 1-3.");
+                Console.WriteLine("Wrong input. Enter a value 1-3.");
+            }
+        }
+
+        private static void PrintBooks()
+        {
+            Console.Clear();
+            for(var i = 0; i < bookshelf.Count; i++)
+            {
+                Console.WriteLine("\n" + bookshelf);
+            }
         }
     }
 }
