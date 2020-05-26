@@ -11,3 +11,16 @@ C:\Users\Alexa.DESKTOP-N1BFAKT\source\repos\Bookshelf\Bookshelf\obj\Debug\netcor
 C:\Users\Alexa.DESKTOP-N1BFAKT\source\repos\Bookshelf\Bookshelf\obj\Debug\netcoreapp3.1\Bookshelf.dll
 C:\Users\Alexa.DESKTOP-N1BFAKT\source\repos\Bookshelf\Bookshelf\obj\Debug\netcoreapp3.1\Bookshelf.pdb
 C:\Users\Alexa.DESKTOP-N1BFAKT\source\repos\Bookshelf\Bookshelf\obj\Debug\netcoreapp3.1\Bookshelf.genruntimeconfig.cache
+C:\Users\Alexa.DESKTOP-N1BFAKT\source\repos\NTI-Skolan\Bookshelf\Bookshelf\bin\Debug\netcoreapp3.1\Bookshelf.exe
+C:\Users\Alexa.DESKTOP-N1BFAKT\source\repos\NTI-Skolan\Bookshelf\Bookshelf\bin\Debug\netcoreapp3.1\Bookshelf.deps.json
+C:\Users\Alexa.DESKTOP-N1BFAKT\source\repos\NTI-Skolan\Bookshelf\Bookshelf\bin\Debug\netcoreapp3.1\Bookshelf.runtimeconfig.json
+C:\Users\Alexa.DESKTOP-N1BFAKT\source\repos\NTI-Skolan\Bookshelf\Bookshelf\bin\Debug\netcoreapp3.1\Bookshelf.runtimeconfig.dev.json
+C:\Users\Alexa.DESKTOP-N1BFAKT\source\repos\NTI-Skolan\Bookshelf\Bookshelf\bin\Debug\netcoreapp3.1\Bookshelf.dll
+C:\Users\Alexa.DESKTOP-N1BFAKT\source\repos\NTI-Skolan\Bookshelf\Bookshelf\bin\Debug\netcoreapp3.1\Bookshelf.pdb
+C:\Users\Alexa.DESKTOP-N1BFAKT\source\repos\NTI-Skolan\Bookshelf\Bookshelf\obj\Debug\netcoreapp3.1\Bookshelf.csprojAssemblyReference.cache
+C:\Users\Alexa.DESKTOP-N1BFAKT\source\repos\NTI-Skolan\Bookshelf\Bookshelf\obj\Debug\netcoreapp3.1\Bookshelf.AssemblyInfoInputs.cache
+C:\Users\Alexa.DESKTOP-N1BFAKT\source\repos\NTI-Skolan\Bookshelf\Bookshelf\obj\Debug\netcoreapp3.1\Bookshelf.AssemblyInfo.cs
+C:\Users\Alexa.DESKTOP-N1BFAKT\source\repos\NTI-Skolan\Bookshelf\Bookshelf\obj\Debug\netcoreapp3.1\Bookshelf.csproj.CoreCompileInputs.cache
+C:\Users\Alexa.DESKTOP-N1BFAKT\source\repos\NTI-Skolan\Bookshelf\Bookshelf\obj\Debug\netcoreapp3.1\Bookshelf.dll
+C:\Users\Alexa.DESKTOP-N1BFAKT\source\repos\NTI-Skolan\Bookshelf\Bookshelf\obj\Debug\netcoreapp3.1\Bookshelf.pdb
+C:\Users\Alexa.DESKTOP-N1BFAKT\source\repos\NTI-Skolan\Bookshelf\Bookshelf\obj\Debug\netcoreapp3.1\Bookshelf.genruntimeconfig.cache

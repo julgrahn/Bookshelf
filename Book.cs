@@ -1,10 +1,14 @@
-﻿namespace Bookshelf
+﻿using System;
+using System.Collections.Generic;
+
+namespace Bookshelf
 {
     public class Book
     {
-        public string Title;
-        public string Author;
-        public string Type;
+
+        public string Title { get; set; }
+        public string Author { get; set; }
+        public string Type { get; set; }
 
         public Book(string title, string author, string type)
         {
@@ -18,7 +22,12 @@
     {
         public Novel(string title, string author, string type) : base(title, author, type)
         {
-            type = "Novel";
+            Type = "novel";
+        }
+
+        public override string ToString()
+        {
+            return "the name of the book is " + Title + " written by " + Author + " and is of the type " + Type;
         }
     }
 
@@ -26,7 +35,12 @@
     {
         public Journal(string title, string author, string type) : base(title, author, type)
         {
-            type = "Journal";
+            Type = "journal";
+        }
+
+        public override string ToString()
+        {
+            return "the name of the book is " + Title + " written by " + Author + " and is of the type " + Type;
         }
     }
 
@@ -34,7 +48,12 @@
     {
         public Poetry(string title, string author, string type) : base(title, author, type)
         {
-            type = "Poetry";
+            Type = "poetry";
+        }
+
+        public override string ToString()
+        {
+            return "the name of the book is " + Title + " written by " + Author + " and is of the type " + Type;
         }
     }
 }
