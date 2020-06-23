@@ -6,7 +6,7 @@ namespace Bookshelf
     public class Book 
     {
 
-        public string Title { get; set; } //props
+        public string Title { get; set; } //egenskaper
         public string Author { get; set; }
         public string Type { get; set; }
 
